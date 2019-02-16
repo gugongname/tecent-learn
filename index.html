@@ -1,119 +1,138 @@
 <!DOCTYPE HTML>
 <html>
 
-<head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <title>Tencent腾讯</title>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <title>Tencent腾讯</title>
+    </head>
     <style>
         * {
             margin: 0;
             padding: 0;
         }
+
         .quanbu {
-            width: 100%;  
+            width: 100%;
             background-position: center;
             background-image: url("https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536572007981&di=540589240d64126188a25f87b44fc1c1&imgtype=0&src=http%3A%2F%2Fimg17.3lian.com%2Fd%2Ffile%2F201701%2F19%2F2a58dcdcb13c77a83f7d12dace778370.jpg");
             height: 625px;
             background-size: cover;
 
         }
+
         .header {
             width: 100%;
             height: 70px;
             position: fixed;
             z-index: 10;
             top: 0;
-            background: rgba(10,95,184,0);
+            background: rgba(10, 95, 184, 0);
         }
-        .box-one{
-            height:0px;
-            width:80px;
+
+        .box-one {
+            height: 0px;
+            width: 80px;
             background-color: #fff;
-            position:fixed;
-            top:0;
-            z-index:25;
-            left:50%;
+            position: fixed;
+            top: 0;
+            z-index: 25;
+            left: 50%;
             margin-left: 23px;
         }
-        .box-tow{
-            height:0px;
-            width:80px;
+
+        .box-tow {
+            height: 0px;
+            width: 80px;
             background-color: #fff;
-            position:fixed;
-            top:0;
-            z-index:25;
-            left:50%;
+            position: fixed;
+            top: 0;
+            z-index: 25;
+            left: 50%;
             margin-left: 144px;
         }
-        .box-three{
-            height:0px;
-            width:80px;
+
+        .box-three {
+            height: 0px;
+            width: 80px;
             background-color: #fff;
-            position:fixed;
-            top:0;
-            z-index:25;
-            left:50%;
+            position: fixed;
+            top: 0;
+            z-index: 25;
+            left: 50%;
             margin-left: 264px;
         }
-        .box-four{
-            height:0px;
-            width:80px;
+
+        .box-four {
+            height: 0px;
+            width: 80px;
             background-color: #fff;
-            position:fixed;
-            top:0;
-            z-index:25;
-            left:50%;
+            position: fixed;
+            top: 0;
+            z-index: 25;
+            left: 50%;
             margin-left: 384px;
         }
+
         .center {
             width: 1180px;
             height: 34px;
             margin: 18px auto;
             text-align: center;
         }
+
         .head-left {
             float: left;
         }
+
         .head-left img {
             width: 210px;
             height: 34px;
         }
+
         .head-right {
             width: 590px;
             height: 34px;
             float: right;
             line-height: 34px;
         }
+
         .head-right li {
             list-style-type: none;
             float: right;
         }
+
         .head-right li a {
             font-size: 15px;
             color: #FFFFFF;
             text-decoration: none;
         }
+
         .nav {
             width: 456px;
             height: 34px;
             float: left;
         }
+
         .nav li {
 
             margin-left: 30px;
 
         }
+
         .shop {
             width: 80px;
             height: 34px;
             float: right;
         }
+
         .shop li {
             margin-left: 7px;
         }
+
         .shop li a {
             font-size: 12px;
         }
+
         .shop-one {
             height: 14px;
             width: 1px;
@@ -121,30 +140,35 @@
             margin-top: 12px;
             margin-bottom: 12px;
         }
+
         .shop-tow {
             height: 14px;
             width: 1px;
             background-color: #4C8ACC;
             margin-top: 12px;
         }
+
         .nav-tow {
             height: 14px;
             width: 1px;
             background-color: #4C8ACC;
             margin-top: 10px;
         }
+
         .nav-four {
             height: 14px;
             width: 1px;
             background-color: #4C8ACC;
             margin-top: 10px;
         }
+
         .nav-six {
             height: 14px;
             width: 1px;
             background-color: #4C8ACC;
             margin-top: 10px;
         }
+
         .news {
             width: 1180px;
             height: 180px;
@@ -152,36 +176,43 @@
             margin: 68px auto;
             font-family: "微软雅黑";
         }
+
         .news-one {
             width: 368px;
             height: 180px;
             background-color: #FFFFFF;
             float: left;
         }
+
         .news-one h3 {
             font-weight: normal;
             float: left;
         }
+
         .top-news-one {
             width: 368px;
             height: 25px;
         }
+
         .top-news-one a {
             float: right;
             font-size: 13PX;
             line-height: 25px;
             text-decoration: none;
         }
+
         .botton-news-one {
             width: 368px;
             height: 137px;
             margin-top: 20px;
         }
+
         .botton-news-one p {
             font-size: 14px;
             color: #806267;
             line-height: 2em;
         }
+
         .news-tow {
             width: 368px;
             height: 180px;
@@ -189,23 +220,28 @@
             float: left;
             margin-left: 38px;
         }
+
         .top-news-tow {
             width: 368px;
             height: 25px;
         }
+
         .top-news-tow h3 {
             font-weight: normal;
         }
+
         .botton-nwes-tow {
             width: 368px;
             height: 137px;
             margin-top: 20px;
         }
+
         .botton-news-tow p {
             font-size: 14px;
             color: #806267;
             line-height: 2em;
         }
+
         .news-three {
             width: 368px;
             height: 180px;
@@ -213,16 +249,20 @@
             float: left;
             margin-left: 38px;
         }
+
         .top-news-three h3 {
             font-weight: normal;
         }
+
         .botton-news-three {
             margin-top: 20px;
         }
+
         .botton-news-three img {
             width: 368px;
             height: 137px;
         }
+
         .imgnews {
             width: 1180px;
             height: 180px;
@@ -230,6 +270,7 @@
             margin: 68px auto;
             font-family: "微软雅黑";
         }
+
         .imgnews-one,
         .imgnews-tow,
         .imgnews-three {
@@ -238,33 +279,39 @@
             background-color: #FFFFFF;
             float: left;
         }
+
         .imgnews-tow,
         .imgnews-three {
             margin-left: 38px;
         }
+
         .top-imgnews-one,
         .top-imgnews-tow,
         .top-imgnews-three {
             width: 368px;
             height: 25px;
         }
+
         .top-imgnews-one h3,
         .top-imgnews-tow h3 {
             font-weight: normal;
             float: left;
         }
+
         .top-imgnews-one span {
             float: right;
             font-size: 13PX;
             color: #B9C8DE;
             line-height: 25px;
         }
+
         .top-imgnews-tow span {
             float: right;
             font-size: 13PX;
             color: #B9C8DE;
             line-height: 25px;
         }
+
         .botton-imgnews-one,
         .botton-imgnews-tow,
         .botton-imgnews-three {
@@ -272,131 +319,160 @@
             height: 168px;
             margin-top: 20px;
         }
+
         .botton-imgnews-one a img,
         .botton-imgnews-tow a img {
             width: 368px;
             height: 161px;
         }
+
         .botton-imgnews-three ul {
             list-style-type: none;
         }
+
         .botton-imgnews-three ul li {
             font-size: 13px;
             color: #806267;
             line-height: 2.2em;
-            width:368px;
-            height:29px;
+            width: 368px;
+            height: 29px;
         }
-        .botton-imgnews-three ul li span{
-            font-size: 12px;color:#B9B9B9;
+
+        .botton-imgnews-three ul li span {
+            font-size: 12px;
+            color: #B9B9B9;
         }
-        .liebiao{
-            width:292px;
-            height:29px;
+
+        .liebiao {
+            width: 292px;
+            height: 29px;
             float: left;
         }
-        .biaolie{
-            width:30.8px;
-            height:29px;
-            float:right;
+
+        .biaolie {
+            width: 30.8px;
+            height: 29px;
+            float: right;
         }
-        .botton-imgnews-three a{
+
+        .botton-imgnews-three a {
             font-size: 13px;
             color: #806267;
             line-height: 2.2em;
             text-decoration: none;
         }
-        .botton-imgnews-three .liebiao:hover{
-            color:blue;
+
+        .botton-imgnews-three .liebiao:hover {
+            color: blue;
         }
-        .footer{
-            width:100%;
-            height:305px;
+
+        .footer {
+            width: 100%;
+            height: 305px;
             background-color: #EBF1F2;
             margin-top: 50px;
         }
-        .footer-center{
-            width:1180px;
-            height:130px;
+
+        .footer-center {
+            width: 1180px;
+            height: 130px;
             margin: 0 auto;
-            padding-top:40px;
+            padding-top: 40px;
         }
-        .left-footer{
-            width:770px;
-            height:130px;
+
+        .left-footer {
+            width: 770px;
+            height: 130px;
             float: left;
 
         }
-        .left-footer li{
+
+        .left-footer li {
             list-style-type: none;
         }
-        .left-footer .left-footerli li{
-           
+
+        .left-footer .left-footerli li {
+
             line-height: 1.6em;
-            
+
         }
-        .left-footerli{
+
+        .left-footerli {
             font-size: 20px;
-        
-            float:left;
-            width:20%;
-            
-        }
-        .footer-center li a{
-            text-decoration: none;
-            font-size: 13px;color:#806267;
-        }
-        .footer-center li a:hover{
-            color:black;
-        }
-        .right-footer{
-            width:410px;
-            height:130px;
+
             float: left;
-            background-position: center;            
+            width: 20%;
+
         }
-        .right-footer img{
-            width:208px;
-            height:30px;
+
+        .footer-center li a {
+            text-decoration: none;
+            font-size: 13px;
+            color: #806267;
+        }
+
+        .footer-center li a:hover {
+            color: black;
+        }
+
+        .right-footer {
+            width: 410px;
+            height: 130px;
+            float: left;
+            background-position: center;
+        }
+
+        .right-footer img {
+            width: 208px;
+            height: 30px;
             margin-top: 50px;
             margin-left: 100px;
         }
-        .copyright{
-            width:1180px;
-            height:16px;
+
+        .copyright {
+            width: 1180px;
+            height: 16px;
             margin: 0 auto;
-            padding:60px;
+            padding: 60px;
         }
-        .left-copyright{
-            font-size: 14px;color: #806267;
+
+        .left-copyright {
+            font-size: 14px;
+            color: #806267;
             float: left;
         }
-        .left-copyright li{
+
+        .left-copyright li {
             list-style-type: none;
-            float:left;
+            float: left;
             margin-left: 16px;
         }
-        .left-copyright li a{
+
+        .left-copyright li a {
             text-decoration: none;
-            font-size: 14px;color: #806267;
+            font-size: 14px;
+            color: #806267;
         }
-        .left-copyright li a:hover{
-            color:black;
+
+        .left-copyright li a:hover {
+            color: black;
         }
-        .left-copyright .kongge{
-            width:1px;
-            height:14px;
-            background-color:#806267;
+
+        .left-copyright .kongge {
+            width: 1px;
+            height: 14px;
+            background-color: #806267;
             margin-top: 2px;
         }
-        .right-copyright{
-            font-size: 14px;color: #806267;
+
+        .right-copyright {
+            font-size: 14px;
+            color: #806267;
             float: right;
-            padding-right:95px;
+            padding-right: 95px;
         }
     </style>
     <script type="text/javascript" src="../static/js/jquery.js"></script>
-    
     <script type="text/javascript">
         $(document).ready(function () {
             $(window).scroll(function () {
@@ -473,188 +549,194 @@
             )
         })
     </script>
-<body>
-    <div class="quanbu">
-    </div>
-    <!--quanbu结束-->
-    <div class="header">
-        <div class="box-one"></div>
-        <div class="box-tow"></div>
-        <div class="box-three"></div>
-        <div class="box-four"></div>
-        <div class="center">
-            <div class="head-left">
-                <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536525942364&di=b0c26c67ecd2ce7da146ae368147f382&imgtype=0&src=http%3A%2F%2Fshp.qpic.cn%2Fqqvideo_ori%2F0%2Fo0505gnbt5w_496_280%2F0">
+
+    <body>
+        <div class="quanbu">
+        </div>
+        <!--quanbu结束-->
+        <div class="header">
+            <div class="box-one"></div>
+            <div class="box-tow"></div>
+            <div class="box-three"></div>
+            <div class="box-four"></div>
+            <div class="center">
+                <div class="head-left">
+                    <img
+                        src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1536525942364&di=b0c26c67ecd2ce7da146ae368147f382&imgtype=0&src=http%3A%2F%2Fshp.qpic.cn%2Fqqvideo_ori%2F0%2Fo0505gnbt5w_496_280%2F0">
+                </div>
+                <!--head-left结束-->
+                <div class="head-right">
+                    <div class="shop">
+                        <ul>
+                            <li><a href="#">EN</a></li>
+                            <li class="shop-one"></li>
+                            <li><a href="#">繁</a></li>
+                            <li class="shop-tow">
+                            <li>
+                            <li><a href="#">简</a></li>
+                        </ul>
+                    </div>
+                    <!--shop结束-->
+                    <div class="nav">
+                        <ul>
+                            <li class="nav-one"><a href="#">投资关系</a></li>
+                            <li class="nav-tow"></li>
+                            <li class="nav-three"><a href="#">业务体系</a></li>
+                            <li class="nav-four"></li>
+                            <li class="nav-five"><a href="#">企业文化</a></li>
+                            <li class="nav-six"></li>
+                            <li class="nav-seven"><a href="#">公司信息</a></li>
+                        </ul>
+                    </div>
+                    <!--nav结束-->
+                </div>
+                <!--head-right结束---->
             </div>
-            <!--head-left结束-->
-            <div class="head-right">
-                <div class="shop">
+            <!--center结束-->
+        </div>
+        <!--head结束-->
+        <div class="news">
+            <div class="news-one">
+                <div class="top-news-one">
+                    <h3>腾讯简介</h3><a href="https://www.tencent.com/zh-cn/index.html">更多&gt;&gt;</a>
+                </div>
+                <!--top-news-one结束-->
+                <div class="botton-news-one">
+                    <p>腾讯成立于1998年11月，是目前中国领先的互联网增值服务提供商之一。成立10多年来，腾讯一直秉承“一切以用户价值为依归”的经营理念，为亿级海量用户提供稳定优质的各类服务，始终处于稳健发展状态。2004年6月16日，腾讯控股有限公司在香港联交所主板公开上市(股票代号700)。
+                    </p>
+                </div>
+                <!--botton-news-one结束-->
+            </div>
+            <!--news-one结束-->
+            <div class="news-tow">
+                <div class="top-news-tow">
+                    <h3>公司愿景</h3>
+                </div>
+                <div class="botton-news-tow">
+                    <p>成为最受尊敬的互联网企业是腾讯的愿景目标。腾讯一直积极参与公益事业、努力承担企业社会责任、推动网络文明。腾讯的每一项产品与业务都拥抱公益，开放互联，并倡导所有企业一起行动，通过互联网领域的技术、传播优势，缔造“人人可公益，民众齐参与”的互联网公益新生态。
+                    </p>
+                </div>
+            </div>
+            <!--news-tow结束-->
+            <div class="news-three">
+                <div class="top-news-three">
+                    <h3>视频介绍</h3>
+                </div>
+                <div class="botton-news-three">
+                    <a><img src="https://www.tencent.com/uploads/1534336375.jpg"></a>
+                    <!--news-three结束-->
+                </div>
+            </div>
+        </div>
+        <!--nwes结束-->
+        <div class="imgnews">
+            <div class="imgnews-one">
+                <div class="top-imgnews-one">
+                    <h3>腾讯公布2018年第二季度及中期业...</h3><span>08/15</span>
+                </div>
+                <div class="botton-imgnews-one">
+                    <a><img src="https://www.tencent.com/uploads/1534336375.jpg"></a>
+                </div>
+            </div>
+            <!--imgnews-one结束-->
+            <div class="imgnews-tow">
+                <div class="top-imgnews-tow">
+                    <h3>腾讯公布2018年第一季度业绩【P...</h3><span>05/16</span>
+                </div>
+                <div class="botton-imgnews-tow">
+                    <a><img src="https://www.tencent.com/uploads/1526469919.jpg"></a>
+                </div>
+            </div>
+            <!--imgnews-tow结束-->
+            <div class="imgnews-three">
+                <div class="top-imgnews-three"></div>
+                <div class="botton-imgnews-three">
                     <ul>
-                        <li><a href="#">EN</a></li>
-                        <li class="shop-one"></li>
-                        <li><a href="#">繁</a></li>
-                        <li class="shop-tow">
-                        <li>
-                        <li><a href="#">简</a></li>
+                        <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf"
+                                class="liebiao">腾讯公布2017年第四季度及全年业绩【PDF
+                                fil</a><span class="biaolie">03/21</span></li>
+                        <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf"
+                                class="liebiao">腾讯公布2017年第三季度业绩【PDF
+                                file】 </a><span class="biaolie">11/15</span></li>
+                        <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf"
+                                class="liebiao">腾讯公布2017年第二季度及中期业绩【PDF
+                                file】</a><span class="biaolie">08/16</span></li>
+                        <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf"
+                                class="liebiao">腾讯公布2017年第一季度业绩【PDF
+                                file】</a><span class="biaolie"> 05/17</span></li>
+                        <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf"
+                                class="liebiao">腾讯公布2016年第四季度及全年业绩【PDF
+                                file】</a><span class="biaolie">03/22</span></li>
+                        <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf"
+                                class="liebiao">腾讯公布2016年第三季度业绩【PDF
+                                File】 </a><span class="biaolie">11/24</span> </li>
                     </ul>
                 </div>
-                <!--shop结束-->
-                <div class="nav">
+            </div>
+            <!--imgnews-three结束-->
+        </div>
+        <!--imgnews结束-->
+        <div class="footer">
+            <div class="footer-center">
+                <div class="left-footer">
                     <ul>
-                        <li class="nav-one"><a href="#">投资关系</a></li>
-                        <li class="nav-tow"></li>
-                        <li class="nav-three"><a href="#">业务体系</a></li>
-                        <li class="nav-four"></li>
-                        <li class="nav-five"><a href="#">企业文化</a></li>
-                        <li class="nav-six"></li>
-                        <li class="nav-seven"><a href="#">公司信息</a></li>
+                        <li class="left-footerli">了解更多
+                            <ul>
+                                <li><a href="#">街景视图</a></li>
+                            </ul>
+                        </li>
+                        <li class="left-footerli">关注我们
+                            <ul>
+                                <li><a href="#">微信</a></li>
+                                <li><a href="#">腾讯微博</a></li>
+                                <li><a href="#">新浪微博</a></li>
+                            </ul>
+                        </li>
+                        <li class="left-footerli">加入我们
+                            <ul>
+                                <li><a href="#">社会招聘</a></li>
+                                <li><a href="#">校园招聘</a></li>
+                                <li><a href="#">国际招聘</a></li>
+                            </ul>
+                        </li>
+                        <li class="left-footerli">联系我们
+                            <ul>
+                                <li><a href="#">客户服务</a></li>
+                                <li><a href="#">合作洽谈</a></li>
+                                <li><a href="#">服务采购</a></li>
+                            </ul>
+                        </li>
+                        <li class="left-footerli">法律信息
+                            <ul>
+                                <li><a href=“#”>服务协议</a></li>
+                                <li><a href=“#”>隐私政策</a></li>
+                                <li><a href=“#”>知识产权</a></li>
+                            </ul>
+                        </li>
+
                     </ul>
                 </div>
-                <!--nav结束-->
+                <div class="right-footer">
+                </div>
             </div>
-            <!--head-right结束---->
-        </div>
-        <!--center结束-->
-    </div>
-    <!--head结束-->
-    <div class="news">
-        <div class="news-one">
-            <div class="top-news-one">
-                <h3>腾讯简介</h3><a href="https://www.tencent.com/zh-cn/index.html">更多&gt;&gt;</a>
+            <div class="copyright">
+                <div class="left-copyright">
+                    <ul>
+                        <li><a href="#">法律声明</a> </li>
+                        <li class="kongge"></li>
+                        <li><a href="#">监督举报</a></li>
+                        <li class="kongge"></li>
+                        <li><a href="#">网站地图</a></li>
+                        <li class="kongge"></li>
+                        <li><a href="#">粤网文【2017】6138-1456号</a></li>
+                    </ul>
+                </div>
+                <div class="right-copyright">
+                    <p>Copyright © 1998 - 2018 Tencent. All Rights Reserved.腾讯公司 版权所有</p>
+                </div>
             </div>
-            <!--top-news-one结束-->
-            <div class="botton-news-one">
-                <p>腾讯成立于1998年11月，是目前中国领先的互联网增值服务提供商之一。成立10多年来，腾讯一直秉承“一切以用户价值为依归”的经营理念，为亿级海量用户提供稳定优质的各类服务，始终处于稳健发展状态。2004年6月16日，腾讯控股有限公司在香港联交所主板公开上市(股票代号700)。</p>
-            </div>
-            <!--botton-news-one结束-->
-        </div>
-        <!--news-one结束-->
-        <div class="news-tow">
-            <div class="top-news-tow">
-                <h3>公司愿景</h3>
-            </div>
-            <div class="botton-news-tow">
-                <p>成为最受尊敬的互联网企业是腾讯的愿景目标。腾讯一直积极参与公益事业、努力承担企业社会责任、推动网络文明。腾讯的每一项产品与业务都拥抱公益，开放互联，并倡导所有企业一起行动，通过互联网领域的技术、传播优势，缔造“人人可公益，民众齐参与”的互联网公益新生态。</p>
-            </div>
-        </div>
-        <!--news-tow结束-->
-        <div class="news-three">
-            <div class="top-news-three">
-                <h3>视频介绍</h3>
-            </div>
-            <div class="botton-news-three">
-                <a><img src="https://www.tencent.com/uploads/1534336375.jpg"></a>
-                <!--news-three结束-->
-            </div>
-        </div>
-    </div>
-    <!--nwes结束-->
-    <div class="imgnews">
-        <div class="imgnews-one">
-            <div class="top-imgnews-one">
-                <h3>腾讯公布2018年第二季度及中期业...</h3><span>08/15</span>
-            </div>
-            <div class="botton-imgnews-one">
-                <a><img src="https://www.tencent.com/uploads/1534336375.jpg"></a>
-            </div>
-        </div>
-        <!--imgnews-one结束-->
-        <div class="imgnews-tow">
-            <div class="top-imgnews-tow">
-                <h3>腾讯公布2018年第一季度业绩【P...</h3><span>05/16</span>
-            </div>
-            <div class="botton-imgnews-tow">
-                <a><img src="https://www.tencent.com/uploads/1526469919.jpg"></a>
-            </div>
-        </div>
-        <!--imgnews-tow结束-->
-        <div class="imgnews-three">
-            <div class="top-imgnews-three"></div>
-            <div class="botton-imgnews-three">
-                <ul>
-                    <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf" class="liebiao">腾讯公布2017年第四季度及全年业绩【PDF
-                            fil</a><span class="biaolie">03/21</span></li>
-                    <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf" class="liebiao">腾讯公布2017年第三季度业绩【PDF
-                            file】 </a><span class="biaolie">11/15</span></li>
-                    <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf" class="liebiao">腾讯公布2017年第二季度及中期业绩【PDF
-                            file】</a><span class="biaolie">08/16</span></li>
-                    <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf" class="liebiao">腾讯公布2017年第一季度业绩【PDF
-                            file】</a><span class="biaolie"> 05/17</span></li>
-                    <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf" class="liebiao">腾讯公布2016年第四季度及全年业绩【PDF
-                            file】</a><span class="biaolie">03/22</span></li>
-                    <li><a href="https://www.tencent.com/zh-cn/articles/8003481521633431.pdf" class="liebiao">腾讯公布2016年第三季度业绩【PDF
-                            File】 </a><span class="biaolie">11/24</span> </li>
-                </ul>
-            </div>
-        </div>
-        <!--imgnews-three结束-->
-    </div>
-    <!--imgnews结束-->
-    <div class="footer">
-        <div class="footer-center">
-            <div class="left-footer">
-                <ul>
-                    <li class="left-footerli">了解更多
-                        <ul>
-                            <li><a href="#">街景视图</a></li>
-                        </ul>
-                    </li>
-                    <li class="left-footerli">关注我们
-                        <ul>
-                            <li><a href="#">微信</a></li>
-                            <li><a href="#">腾讯微博</a></li>
-                            <li><a href="#">新浪微博</a></li>
-                        </ul>
-                    </li>
-                    <li class="left-footerli">加入我们
-                        <ul>
-                            <li><a href="#">社会招聘</a></li>
-                            <li><a href="#">校园招聘</a></li>
-                            <li><a href="#">国际招聘</a></li>
-                        </ul>
-                    </li>
-                    <li class="left-footerli">联系我们
-                        <ul>
-                            <li><a href="#">客户服务</a></li>
-                            <li><a href="#">合作洽谈</a></li>
-                            <li><a href="#">服务采购</a></li>
-                        </ul>
-                    </li>
-                    <li class="left-footerli">法律信息
-                        <ul>
-                            <li><a href=“#”>服务协议</a></li>
-                            <li><a href=“#”>隐私政策</a></li>
-                            <li><a href=“#”>知识产权</a></li>
-                        </ul>
-                    </li>
 
-                </ul>
-            </div>
-            <div class="right-footer">
-            </div>
         </div>
-        <div class="copyright">
-            <div class="left-copyright">
-                <ul>
-                    <li><a href="#">法律声明</a> </li>
-                    <li class="kongge"></li>
-                    <li><a href="#">监督举报</a></li>
-                    <li class="kongge"></li>
-                    <li><a href="#">网站地图</a></li>
-                    <li class="kongge"></li>
-                    <li><a href="#">粤网文【2017】6138-1456号</a></li>
-                </ul>
-            </div>
-            <div class="right-copyright">
-                <p>Copyright © 1998 - 2018 Tencent. All Rights Reserved.腾讯公司 版权所有</p>
-            </div>
-        </div>
-
-
-
-    </div>
-    <!--footer结束-->
-</body>
-</head>
-
+        <!--footer结束-->
+    </body>
 </html>
